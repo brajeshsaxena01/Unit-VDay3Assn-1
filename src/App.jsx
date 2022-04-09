@@ -8,9 +8,9 @@ export default function App() {
   const handleChange = (value) => {
     setCounter(counter + value);
   };
-  // const multChange = (value) => {
-  //   setCounter(counter * value);
-  // };
+  const multChange = (value) => {
+    setCounter(counter * value);
+  };
 
   return (
     <div className="App">
